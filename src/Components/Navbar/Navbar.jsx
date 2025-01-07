@@ -13,7 +13,7 @@ export default function Navbar() {
           <ul className="flex gap-6 justify-center text-2xl">
             <li>
               <NavLink
-                to="/"
+                to=""
                 className="text-gray-400 hover:text-white transition duration-300"
               >
                 Home
@@ -21,7 +21,7 @@ export default function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/portfolio"
+                to="portfolio"
                 className="text-gray-400 hover:text-white transition duration-300"
               >
                 Portfolio
@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/contact"
+                to="contact"
                 className="text-gray-400 hover:text-white transition duration-300"
               >
                 Contact

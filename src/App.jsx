@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const routes = createBrowserRouter([
   {
-    path: "React1", element: <Layout />,
+    path: "", element: <Layout />,
     children: [
       { index: true, element: <Home /> },
       { path: "portfolio", element: <Portfolio /> },
