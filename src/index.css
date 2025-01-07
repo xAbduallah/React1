@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #242424;
+}
+
+.active {
+  color: #00BDFC;
+  background-image: linear-gradient(to right, #00BDFC, #C049FA);
+  background-repeat: no-repeat;
+  background-size: 80% 2px;
+  background-position: bottom;
+  padding-bottom: 5px;
+}
